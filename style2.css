@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.wrapper {
+    max-width: 70%;
+    margin: 0 auto;
+}
+.head{
+    width: 100%;
+    background-color: maroon;
+    overflow: hidden;
+}
+.logo {
+    background-color: maroon;
+    width: 20%;
+    float: left;
+    padding: 25px;
+}
+.logo b{
+    font-size: 30px;
+    color: white;
+}
+
+.navigation {
+    width: 60%;
+    float: right;
+    margin-top: 40px;
+}
+.navigation b{
+    font-size: 25px;
+    color: white;
+}
+
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.block1, .block2, .block3, .block4{
+    width: 22.8%;
+    background-color: maroon;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 180px;
+    display: inline-block;
+    }
+.block1{
+    margin-right: 15px;    
+    float: left;
+}
+.block2, .block3{
+    margin-right: 15px;
+    margin-left: 15px;
+    float: left;
+}
+.block4{
+    margin-left: 15px;
+    float: right;
+}
+.box{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.Box1, .Box2, .Box3{
+    width: 32%;
+    background-color: maroon;
+    margin-bottom: 10px;
+    padding: 100px;
+    display: inline-block;
+}
+.Box1, .Box2{
+    float: left;
+    margin-right: 21px;
+}
+.Box3{
+    float: right;
+    }
+.Box1 b, .Box2 b, .Box3 b{
+    font-size: 20px;
+        color: white;
+}
+.footer {
+    width: 100%;
+    background-color: maroon;
+    padding: 15px;
+    text-align: center;
+    }
+    .footer b{
+        font-size: 20px;
+        color: white;        
+    }
